@@ -72,4 +72,4 @@ python scripts/build_brief_pdf.py --font /path/to/MicrosoftYaHei.ttc --font-bold
 
 生成文件为`docs/SCRE-Face_experiment_brief.pdf`。正文数学公式和结构/流程图使用矢量排版，数学字体为STIX，中文为微软雅黑；相关实现见`scripts/report_graphics.py`。重建后仍应检查各页排版；本次交付版已逐页检查。[数学排版修订记录](evidence/pdf_math_revision.json)
 
-解压后可将本目录内容作为GitHub仓库文件提交；本次仅生成发布材料，没有创建或推送远程仓库。权重、数据与完整证据均已带入；不包含虚拟环境、缓存目录或人工测试标签。代码许可证尚未指定；本包不另行授予课程数据和第三方预训练资源的再分发许可，数据说明见[data/README.md](data/README.md)。
+解压后可将本目录内容作为GitHub仓库文件提交；此仓库不包含虚拟环境、缓存目录或人工测试标签。本包不另行授予课程数据和第三方预训练资源的再分发许可，数据说明见[data/README.md](data/README.md)。
