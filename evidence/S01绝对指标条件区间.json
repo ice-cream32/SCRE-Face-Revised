@@ -1,0 +1,20 @@
+{
+  "method": "5000 original-cluster bootstrap, stratify outer-fold x label, seed20261116; fixed weights/thresholds/procedure, no training/selection variance",
+  "intervals": {
+    "clean_accuracy": {
+      "point": 0.9875,
+      "low": 0.9799999999999909,
+      "high": 0.9949999999999906
+    },
+    "weighted_accuracy": {
+      "point": 0.9808333333333331,
+      "low": 0.9745416666666595,
+      "high": 0.9865833333333259
+    },
+    "held_accuracy": {
+      "point": 0.976875,
+      "low": 0.9699999999999921,
+      "high": 0.983124999999991
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "source_zip_sha256": "225213079ae36a851e40cd43e74d6ed41f34f9ef2b86c8b8bb93644d5de5e3fc",
+  "original_members": [
+    {
+      "original_member": "README.md",
+      "sha256": "c065a68fe609e5e5160b9d9966eb3257093d6a85c815dbe3ce7bfd1f21cb8f87"
+    },
+    {
+      "original_member": "S01最终模型报告_便携版.md",
+      "sha256": "d3973f7457b30430366971087e714fa13ccb6e5e91ff6522e3f78e586c75197b"
+    },
+    {
+      "original_member": "assets/01_S01整体结构.png",
+      "sha256": "29af8d4fecb216d7c0989e3f750bc465d19d2629d928e1a70d18e790d7da8a19"
+    },
+    {
+      "original_member": "assets/02_训练样本.png",
+      "sha256": "c69c6720dc34b7489f7393e2f8b2c9bc561c702cb34f1b82d576b7424374a226"
+    },
+    {
+      "original_member": "assets/03_数据统计.png",
+      "sha256": "8b76fbec7060ec9ad1b271e57c8e9c48edf8c76a7ae4dc7349960dcf07d77cc5"
+    },
+    {
+      "original_member": "assets/04_预处理.png",
+      "sha256": "619a46d5a2a7b6ec59a7063d35c3562ca9d79a64c75ac514d90eddd0b91897ed"
+    },
+    {
+      "original_member": "assets/05_固定退化面板.png",
+      "sha256": "757d722c2fb9dac20e461f9cb9e106c8bb097a48b9ece8bea74445ac221d1cb2"
+    },
+    {
+      "original_member": "assets/06_保留压力面板.png",
+      "sha256": "fbf58f1a83b8c5bb4df85df0b5daee6aad4ff21877946e00e6f29bdb3cc0e8f2"
+    },
+    {
+      "original_member": "assets/07_训练验证配对曲线.png",
+      "sha256": "e132271ec7a47e589a3292f04d1020e1a2e9202c10311f5fa66d78987bfbf48a"
+    },
+    {
+      "original_member": "assets/08_独立阈值搜索.png",
+      "sha256": "4c043dc47481a16183f765aea475b32db2c36b013ac4de98adba436abb91e987"
+    },
+    {
+      "original_member": "assets/09_训练数据频谱描述.png",
+      "sha256": "2ea5173f4331cb7061a7a9698ad93fe61f6a0dd93bfb7b296c778116e19849fd"
+    },
+    {
+      "original_member": "assets/10_S01折外混淆矩阵.png",
+      "sha256": "ceb73ee05527ae958af06712e199e58f0a3e6ae0b9ab1b5776d6ad6f218d1cda"
+    },
+    {
+      "original_member": "assets/11_S01正确分类示例.png",
+      "sha256": "c2fcf6507bf1891be97a5a0ed13f584c2ab1c93fc17d5bfceccdbe669de5a40d"
+    },
+    {
+      "original_member": "assets/12_S01全部原图错误.png",
+      "sha256": "3550ee46d6fe7642f68a2afcd46defebc149fcf5487816e1337fe25ae3c98285"
+    },
+    {
+      "original_member": "assets/13_S01逐视图鲁棒性.png",
+      "sha256": "5a72a0b6b9eb20d52ab4f3807af7cc4c33a5ae59c2ce45da9765c78911c55122"
+    },
+    {
+      "original_member": "assets/14_S01模糊强度响应.png",
+      "sha256": "2dae76c2e9ea17f8b8d0fdd0cc2a5be1af4a9108a3c76e235a28ca4b5f314599"
+    },
+    {
+      "original_member": "assets/15_S01模块消融与条件区间.png",
+      "sha256": "dff535e50e18eb99f0addbb4d5733b3b7198e8f4134e2a89ec21856215684548"
+    },
+    {
+      "original_member": "assets/16_S01退化成功与漏检.png",
+      "sha256": "7a60075521175343571c5f6225f021f60b5cac03aff7b04f388dd23056660a6d"
+    },
+    {
+      "original_member": "assets/17_S01条件执行路径.png",
+      "sha256": "c5d47eff50a789c7a4ec00f1772a79e87e94803fdf39f8eaf281a96a0c723eb7"
+    },
+    {
+      "original_member": "code/a1_a4_experiment.py",
+      "sha256": "be6fbce5079ea16b4688ae47e1ed777ed98a47dc91bb4b1df1dc95b815ee14c3"
+    },
+    {
+      "original_member": "code/b1_b4_experiment.py",
+      "sha256": "7539249dc25bc22190f5aa893e7955cc42c9896ee38d6708b7fdccb4a960eb3d"
+    },
+    {
+      "original_member": "code/c1_shared_runtime.py",
+      "sha256": "e81363661b474f21bdf725cc02ab71d02e85464e99c1dd258fc31aeeabdcf153"
+    },
+    {
+      "original_member": "code/c_rescue_experiment.py",
+      "sha256": "5f23b0925a0cdebbe6166574c5dd143f061f029e2e810828ad30b5299932099d"
+    },
+    {
+      "original_member": "code/historical_threshold_search.py",
+      "sha256": "76a7aa981f76bc4be524e7ca56b8ad80a8d8eb5b8a5158c6611ed8bd2de92d21"
+    },
+    {
+      "original_member": "code/networks.py",
+      "sha256": "f801511c8cecca71b7bc4b165cb63c4fbd7d3f68ed6db934f6868286c32b7859"
+    },
+    {
+      "original_member": "code/reference_experiment.py",
+      "sha256": "14928bcaed505d7514711fdd42e2478e776676a61f5f4a98cfe65a80645a4aaf"
+    },
+    {
+      "original_member": "code/reference_protocol.py",
+      "sha256": "29b28144fede865a4ad08b8931e1965b866f3b4405282089b990d4fee97b5161"
+    },
+    {
+      "original_member": "code/s01_architecture_figure.py",
+      "sha256": "267f1eaa2f50906f683c11968234aa61ef17896e992843f5f1f22a098db62d4e"
+    },
+    {
+      "original_member": "code/s01_final_report_figures.py",
+      "sha256": "57fe8429c01ddb81e0927704ec8766129fadaac6a98e4584dec3726cb5f65753"
+    },
+    {
+      "original_member": "code/s01_final_report_markdown.py",
+      "sha256": "13b535b1c329c449ac3f33767491cffd052e8ce32046c1674e57975c976e8f49"
+    },
+    {
+      "original_member": "code/source_experiment.py",
+      "sha256": "8cc1e04c84aa0e9cb0bcdbfd001e68091cc13838b36c0e18205b1ab0687166de"
+    },
+    {
+      "original_member": "code/utils.py",
+      "sha256": "16300bbe9448b471fc639dfa0384330ff40dfcefef4bad58fe6150691669cbc5"
+    },
+    {
+      "original_member": "evidence/01_结构图字体核验.json",
+      "sha256": "bbc0cf571399a142403ec9e633bfe7c41246d42390d8ef4848e2e54f9f73dd35"
+    },
+    {
+      "original_member": "evidence/28网络部署权重与轮次.json",
+      "sha256": "21c376df852cbd89f43bf673d7fe50f4be91b15c04b6c58eb600d4ee8d734933"
+    },
+    {
+      "original_member": "evidence/S01内部评价指标.json",
+      "sha256": "a83786cd596750f70e3472fb68122554e5f7e91d8306bf71a9d091ca1b8c00cf"
+    },
+    {
+      "original_member": "evidence/S01源图折外决策.npz",
+      "sha256": "2ec0231baf5995ba0a5a6a1fb1ae32a32f1a30b5beb2bde8a9636f30e96b27ed"
+    },
+    {
+      "original_member": "evidence/S01绝对指标条件区间.json",
+      "sha256": "5471008587c5dd936ca5cbb9f984b570f08c6d8bf8276070b5cd8526c6f4826f"
+    },
+    {
+      "original_member": "evidence/S01训练原图折外决策.csv",
+      "sha256": "474d55a5953a2cc7d056a9feaff64d11d79cdb149c94c9b9a7755ebe855b020e"
+    },
+    {
+      "original_member": "evidence/S01逐退化视图指标.csv",
+      "sha256": "e29f7879939c79d603ab580a22414108ac75ad4cd9a7fae9e04884e818d7ba83"
+    },
+    {
+      "original_member": "evidence/S01部署模型身份.json",
+      "sha256": "8120d44b4554fd09c0ea5e7327424258a6b9df0d55ca66c5d97b0b16f7198660"
+    },
+    {
+      "original_member": "evidence/s01_final_report_audit.md",
+      "sha256": "1a338b540f404e80487de36ea3cf9c8f5bee7c39d760470d188dd92c4798e97e"
+    },
+    {
+      "original_member": "evidence/s01_model_audit.md",
+      "sha256": "547070d25ead874d20859ed110698a4497337c9244d1453f441dde8e95584074"
+    },
+    {
+      "original_member": "evidence/三组部署校准器.json",
+      "sha256": "d5fda86c7ee86a9d84a1bccd40aa7d1834ef05230243a2f999c7802c69b55787"
+    },
+    {
+      "original_member": "evidence/三组阈值搜索复算.csv",
+      "sha256": "7f5da35bf85fdc79da95621d700c544a50b5a66110f2574ea79b47ef5042d403"
+    },
+    {
+      "original_member": "evidence/原图划分人数.csv",
+      "sha256": "4c5f9e376c8f24adec245a1be4a51f5ea82b6beffccab428b814fe20b8fe5c3b"
+    },
+    {
+      "original_member": "evidence/原图划分完整记录.json",
+      "sha256": "3a93cfd037839148c8296403f3f08baccfc9445077f7803509c0fd36bdb86f50"
+    },
+    {
+      "original_member": "evidence/图表数值核验.json",
+      "sha256": "b7f1999991f9eb3b9331e6279fb830cf401cf57c42d92a13b829dfcecade8add"
+    },
+    {
+      "original_member": "evidence/图表视觉核验缩略图.jpg",
+      "sha256": "8783001ae3bcf2b3d5434faa6e6b4a9068721af3319cddaa4012fc55db818223"
+    },
+    {
+      "original_member": "evidence/成对差值与条件bootstrap区间.csv",
+      "sha256": "e8592338295c2b120b8446e79af3e68fa884cad94bb421e2a8714f2338172860"
+    },
+    {
+      "original_member": "evidence/报告图像字体核验.json",
+      "sha256": "ed02211ce910034a20be5ddb9e2cc37215ad6c9786b754de4cd2741c5d6e3dd7"
+    },
+    {
+      "original_member": "evidence/报告文件清单.json",
+      "sha256": "dd6088ffd16675fb4448449b74204ad9e2c78c3c5755ba269c10051803ce2f4b"
+    },
+    {
+      "original_member": "evidence/最终报告核验.json",
+      "sha256": "ebe73bc472ffe8b59e06f11c38593031329f1e4058fce8c6616037e5c76d193d"
+    },
+    {
+      "original_member": "evidence/条件区间方法.json",
+      "sha256": "80778764a1573b5237dac07ec9670e07be8697e7522214ccd6f77a3276e59c4e"
+    },
+    {
+      "original_member": "evidence/条件执行源图逻辑统计.json",
+      "sha256": "1783df0f596e0c2a560543762a010906c5643384078eacc75f8cb145deec34c3"
+    },
+    {
+      "original_member": "evidence/来源摘录说明.json",
+      "sha256": "16ff95a5ebeabeea07e3bd90817f1001dc39dd6b4e339e598d63d803d78d707c"
+    },
+    {
+      "original_member": "evidence/源图全部指标.json",
+      "sha256": "5f1907a71b7047ef1567112775101370ce873b36b123e5636dd10435b48b6a6d"
+    },
+    {
+      "original_member": "evidence/源图全部消融结果.csv",
+      "sha256": "327b4c718bb5dfecb158f29ef7581eecc2d813d966657af6a7bf27ad7655300e"
+    },
+    {
+      "original_member": "evidence/训练图像描述统计.csv",
+      "sha256": "1fcb3b7c44288b140f59cce29375184163b9fd9d3ee53c5bec8573fb25ffa620"
+    },
+    {
+      "original_member": "evidence/训练数据核验.json",
+      "sha256": "cc99ae10a9860fe08016708fc24a004543cccb68c3bcaf5a1f54f29e13508468"
+    },
+    {
+      "original_member": "evidence/超参数完整账本.md",
+      "sha256": "874234b81290563be627e8388674417d9444fce6725ac1287b7a693508c95fb0"
+    },
+    {
+      "original_member": "evidence/运行库版本.json",
+      "sha256": "6212ca47f3fd31ab6ead94f66b6207e848ff4dd05dc8b503ca33041090e7ca32"
+    },
+    {
+      "original_member": "evidence/退化展示索引.csv",
+      "sha256": "db5b05e973fa075ce1192b850fa60c58475c54287d0ad45b5cc65de2b59982f4"
+    },
+    {
+      "original_member": "evidence/配对曲线真实记录.csv",
+      "sha256": "9baf9188949a895eb59a8aa34a5e9801368866877e11d95b71b570b174ccb264"
+    },
+    {
+      "original_member": "evidence/非负约束触边核验.json",
+      "sha256": "7dd615a888ed9f389d2fc76a85bf399309bbbaa4ad3e613fbb95cd31ffa66a7d"
+    },
+    {
+      "original_member": "evidence/频谱描述统计.csv",
+      "sha256": "9430234d2824687439a1fab4cb859b687b597b37ed0edea85efb4deb9262fdee"
+    },
+    {
+      "original_member": "report_summary.json",
+      "sha256": "ca63c3cf245200a140429ac7a2e136f097186a093ecebd03d5f4fcbacc7f1dfc"
+    }
+  ],
+  "transformations": [
+    "directory restructure",
+    "local path anonymization in text",
+    "standalone inference runtime extracted from original AST",
+    "original weights and network definitions unchanged",
+    "user score added with provenance"
+  ],
+  "prediction_sha256": "344a60e51caf2a9aca157bbf3adf436b13184a0bc4883c42675144d51ad1bcc8",
+  "weights_sha256": "56c3fa2a06d26548c5b2959bb0f8879284ad417ad283eb52066ae707f9f0b5c2"
+}

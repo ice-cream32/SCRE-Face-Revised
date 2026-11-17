@@ -1,0 +1,45 @@
+{
+  "affected_pages": [
+    3,
+    4,
+    5,
+    7,
+    8,
+    9
+  ],
+  "visually_reviewed_revised_pages": [
+    3,
+    4,
+    5,
+    7,
+    8,
+    9
+  ],
+  "remaining_pages_pixel_identical_to_previous_release": [
+    1,
+    2,
+    6,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "equation_font": "STIX",
+  "chinese_font": "Microsoft YaHei",
+  "rendering": "vector outlines for all mathematics and vector shapes for both diagrams",
+  "affected_pages_have_raster_images": false,
+  "changes": {
+    "3": "Redrawn structure diagram, true subscripts and superscripts, consistent probability notation.",
+    "4": "Fraction and operators typeset at natural 17 pt size.",
+    "5": "Both training losses typeset with consistent mathematical spacing and fraction.",
+    "7": "Clipped probability separated from logit definition; fusion sum and table headers typeset.",
+    "8": "Argmax limit and summation laid out with correct mathematical typography.",
+    "9": "Redrawn conditional flow with math labels and compact final classification rule."
+  },
+  "model_or_predictions_modified": false,
+  "pdf_sha256": "2f73578f53b0a324d028d3ce65e51f6b911f71f41a1442ee16978e37a4ca1cc0"
+}

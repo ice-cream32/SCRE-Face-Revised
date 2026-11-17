@@ -1,0 +1,9 @@
+{
+  "standard_weighted_path_fraction": {
+    "7": 0.5032500000000001,
+    "21": 0.4894583333333333,
+    "28": 0.007291666666666667
+  },
+  "standard_weighted_mean_members": 14.005541666666666,
+  "note": "Replay of source-fold decisions, not actual GPU timing; Dense prefix/norm5 shared; different members have different costs."
+}

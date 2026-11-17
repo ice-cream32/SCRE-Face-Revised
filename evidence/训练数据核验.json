@@ -1,0 +1,18 @@
+{
+  "n": 800,
+  "faces": 400,
+  "nonfaces": 400,
+  "shape": [
+    800,
+    361
+  ],
+  "dtype": "float64",
+  "min": 0.0,
+  "max": 1.0,
+  "nonfinite": 0,
+  "exact_unique": 800,
+  "global_mean": 0.4176119863986969,
+  "global_std": 0.21288429200649261,
+  "data_sha256": "ede16ffb18c4d7634855e39c5c2ee0e5880ef9e94ebfb96c32891dc070780dad",
+  "labels_sha256": "9d9a0c20fb5fa2a4f4458c002e97360998559ea96b83b868bd470e1bedf0e906"
+}

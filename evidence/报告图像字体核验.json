@@ -1,0 +1,131 @@
+[
+  {
+    "file": "02_训练样本.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "reused_source_only_figure": true,
+    "source_sha256": "c69c6720dc34b7489f7393e2f8b2c9bc561c702cb34f1b82d576b7424374a226",
+    "prior_font_audit": {
+      "figure": "02_训练样本.png",
+      "text_objects": 361,
+      "Chinese_font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "font_family": "Microsoft YaHei"
+    }
+  },
+  {
+    "file": "03_数据统计.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "reused_source_only_figure": true,
+    "source_sha256": "8b76fbec7060ec9ad1b271e57c8e9c48edf8c76a7ae4dc7349960dcf07d77cc5",
+    "prior_font_audit": {
+      "figure": "03_数据统计.png",
+      "text_objects": 208,
+      "Chinese_font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "font_family": "Microsoft YaHei"
+    }
+  },
+  {
+    "file": "04_预处理.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "reused_source_only_figure": true,
+    "source_sha256": "619a46d5a2a7b6ec59a7063d35c3562ca9d79a64c75ac514d90eddd0b91897ed",
+    "prior_font_audit": {
+      "figure": "04_预处理.png",
+      "text_objects": 129,
+      "Chinese_font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "font_family": "Microsoft YaHei"
+    }
+  },
+  {
+    "file": "05_固定退化面板.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "reused_source_only_figure": true,
+    "source_sha256": "757d722c2fb9dac20e461f9cb9e106c8bb097a48b9ece8bea74445ac221d1cb2",
+    "prior_font_audit": {
+      "figure": "05_固定退化面板.png",
+      "text_objects": 417,
+      "Chinese_font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "font_family": "Microsoft YaHei"
+    }
+  },
+  {
+    "file": "06_保留压力面板.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "reused_source_only_figure": true,
+    "source_sha256": "fbf58f1a83b8c5bb4df85df0b5daee6aad4ff21877946e00e6f29bdb3cc0e8f2",
+    "prior_font_audit": {
+      "figure": "06_保留压力面板.png",
+      "text_objects": 105,
+      "Chinese_font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "font_family": "Microsoft YaHei"
+    }
+  },
+  {
+    "file": "07_训练验证配对曲线.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "reused_source_only_figure": true,
+    "source_sha256": "e132271ec7a47e589a3292f04d1020e1a2e9202c10311f5fa66d78987bfbf48a",
+    "prior_font_audit": {
+      "figure": "07_训练验证配对曲线.png",
+      "text_objects": 195,
+      "Chinese_font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "font_family": "Microsoft YaHei"
+    }
+  },
+  {
+    "file": "08_独立阈值搜索.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "reused_source_only_figure": true,
+    "source_sha256": "4c043dc47481a16183f765aea475b32db2c36b013ac4de98adba436abb91e987",
+    "prior_font_audit": {
+      "figure": "08_独立阈值搜索.png",
+      "text_objects": 97,
+      "Chinese_font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "font_family": "Microsoft YaHei"
+    }
+  },
+  {
+    "file": "09_训练数据频谱描述.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "text_objects": 112
+  },
+  {
+    "file": "10_S01折外混淆矩阵.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "text_objects": 15
+  },
+  {
+    "file": "11_S01正确分类示例.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "text_objects": 157
+  },
+  {
+    "file": "12_S01全部原图错误.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "text_objects": 131
+  },
+  {
+    "file": "13_S01逐视图鲁棒性.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "text_objects": 158
+  },
+  {
+    "file": "14_S01模糊强度响应.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "text_objects": 28
+  },
+  {
+    "file": "15_S01模块消融与条件区间.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "text_objects": 85
+  },
+  {
+    "file": "16_S01退化成功与漏检.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "text_objects": 313
+  },
+  {
+    "file": "17_S01条件执行路径.png",
+    "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+    "text_objects": 27
+  }
+]

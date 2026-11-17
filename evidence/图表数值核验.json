@@ -1,0 +1,10 @@
+{
+  "source_only": true,
+  "S01_compiled_source_decisions_rebuilt": 16000,
+  "matches_locked_source_decisions": true,
+  "source_view_tensor_hashes_match_score_banks": true,
+  "no_training_or_retuning": true,
+  "font": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+  "source_figures_generated_or_copied": 16,
+  "model_weight_hash_verified": true
+}

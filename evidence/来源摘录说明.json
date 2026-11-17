@@ -1,0 +1,18 @@
+{
+  "scope": "S01 final architecture plus its source-only fixed/refitted ablations. Unused predecessor, pruning-candidate and deployment-image comparison columns omitted.",
+  "source_files": [
+    {
+      "file": "${ORIGINAL_WORKSPACE}/outputs/C1_SCORE消融与简化/源图全部消融结果.csv",
+      "sha256": "13ab8fd21d90d15f8500d8b80c8ee1acb934d0b40aef44eaa097937a2d24b0c3"
+    },
+    {
+      "file": "${ORIGINAL_WORKSPACE}/outputs/C1_SCORE消融与简化/源图全部指标.json",
+      "sha256": "8137bbe582dcdc3a5fb9490d7b1d80bba2f8e9039159f86a30fd68ac871c5802"
+    },
+    {
+      "file": "${ORIGINAL_WORKSPACE}/outputs/C1_SCORE消融与简化/evidence/成对差值与条件bootstrap区间.csv",
+      "sha256": "3b20511ef824a125c4de04eeffbaf01267db73b6545b1a491823e828656e1fad"
+    }
+  ],
+  "relabel": "S01_EXACT is named S01; numbers unchanged; no model selection or fitting."
+}

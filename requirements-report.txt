@@ -1,0 +1,6 @@
+reportlab
+pypdf
+pdfplumber
+matplotlib
+svglib>=2.4
+Pillow

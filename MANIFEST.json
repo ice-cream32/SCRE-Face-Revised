@@ -1,0 +1,501 @@
+{
+  "algorithm": "SHA256",
+  "excludes": [
+    "MANIFEST.json itself",
+    "outputs/",
+    "__pycache__/",
+    ".venv/"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 55,
+      "sha256": "cecc9b41313a64e94dbed7deefa44c839bc953921cb7b783cdde43d4acdf82bd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5475,
+      "sha256": "97dbf31c497eaa80a1b15fa0f4aca1922d8f0e6a0ae42a8f48a1c0fc24f55918"
+    },
+    {
+      "path": "archive/README.md",
+      "bytes": 584,
+      "sha256": "e9755d9215489ef15f5f4f482e2eaf4688d87c95b68a0ed528c2c9beb68f6f5b"
+    },
+    {
+      "path": "archive/code/a1_a4_experiment.py",
+      "bytes": 25843,
+      "sha256": "c4e1151dc7a51c102c9f25e93af862583fa381a1609ccf71581ae93e65c92cd0"
+    },
+    {
+      "path": "archive/code/b1_b4_experiment.py",
+      "bytes": 26966,
+      "sha256": "1b254568e5b568ef70d814d7b6d662a88bb65aaed7a51af0e061b7c138c8fd1f"
+    },
+    {
+      "path": "archive/code/c1_shared_runtime.py",
+      "bytes": 21739,
+      "sha256": "162f68cd92f6e0099dab4748b094a34ffa6e8a8dcfdb331853f9f23934f58d09"
+    },
+    {
+      "path": "archive/code/c_rescue_experiment.py",
+      "bytes": 29514,
+      "sha256": "0cb8af5dab9b1fbbc4f7835fe07b675d53505238605d6542f5653f9437ddc103"
+    },
+    {
+      "path": "archive/code/historical_threshold_search.py",
+      "bytes": 14389,
+      "sha256": "76a7aa981f76bc4be524e7ca56b8ad80a8d8eb5b8a5158c6611ed8bd2de92d21"
+    },
+    {
+      "path": "archive/code/networks.py",
+      "bytes": 2921,
+      "sha256": "f801511c8cecca71b7bc4b165cb63c4fbd7d3f68ed6db934f6868286c32b7859"
+    },
+    {
+      "path": "archive/code/reference_experiment.py",
+      "bytes": 17106,
+      "sha256": "14928bcaed505d7514711fdd42e2478e776676a61f5f4a98cfe65a80645a4aaf"
+    },
+    {
+      "path": "archive/code/reference_protocol.py",
+      "bytes": 2621,
+      "sha256": "29b28144fede865a4ad08b8931e1965b866f3b4405282089b990d4fee97b5161"
+    },
+    {
+      "path": "archive/code/s01_architecture_figure.py",
+      "bytes": 10546,
+      "sha256": "4f063f0e27f2e7581d1adc2a689ed9a3ea471d3ea949402f6876e062ae54300e"
+    },
+    {
+      "path": "archive/code/s01_final_report_figures.py",
+      "bytes": 19724,
+      "sha256": "131effe58473b0f759d40793b352f6afa45f278b797228ca4a425b263d944f51"
+    },
+    {
+      "path": "archive/code/s01_final_report_markdown.py",
+      "bytes": 46046,
+      "sha256": "13b535b1c329c449ac3f33767491cffd052e8ce32046c1674e57975c976e8f49"
+    },
+    {
+      "path": "archive/code/source_experiment.py",
+      "bytes": 21353,
+      "sha256": "8cc1e04c84aa0e9cb0bcdbfd001e68091cc13838b36c0e18205b1ab0687166de"
+    },
+    {
+      "path": "archive/code/utils.py",
+      "bytes": 1553,
+      "sha256": "16300bbe9448b471fc639dfa0384330ff40dfcefef4bad58fe6150691669cbc5"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 478,
+      "sha256": "f78bcd2cc157f96329005ef7017cdbd68e2578404bab51c1f0fb756411504f0d"
+    },
+    {
+      "path": "data/test.zip",
+      "bytes": 287069,
+      "sha256": "05393262c6bcbf7365f740981f0747cac09f06d0ccdb465221a4c01cfe624c31"
+    },
+    {
+      "path": "data/test_data.mat",
+      "bytes": 294130,
+      "sha256": "2bdd5402d37ec87fa231480011541e9d27a05d6b21e6e3356bfee517ad74a095"
+    },
+    {
+      "path": "data/train.zip",
+      "bytes": 600953,
+      "sha256": "e0e32b169051ceedd6a286694641518eb5c9985ae8d66e1b393406f889df8d66"
+    },
+    {
+      "path": "data/train_data.mat",
+      "bytes": 614540,
+      "sha256": "ede16ffb18c4d7634855e39c5c2ee0e5880ef9e94ebfb96c32891dc070780dad"
+    },
+    {
+      "path": "data/train_label.mat",
+      "bytes": 206,
+      "sha256": "9d9a0c20fb5fa2a4f4458c002e97360998559ea96b83b868bd470e1bedf0e906"
+    },
+    {
+      "path": "docs/SCRE-Face_experiment_brief.pdf",
+      "bytes": 820203,
+      "sha256": "2f73578f53b0a324d028d3ce65e51f6b911f71f41a1442ee16978e37a4ca1cc0"
+    },
+    {
+      "path": "docs/assets/01_S01整体结构.png",
+      "bytes": 963869,
+      "sha256": "29af8d4fecb216d7c0989e3f750bc465d19d2629d928e1a70d18e790d7da8a19"
+    },
+    {
+      "path": "docs/assets/02_训练样本.png",
+      "bytes": 154423,
+      "sha256": "c69c6720dc34b7489f7393e2f8b2c9bc561c702cb34f1b82d576b7424374a226"
+    },
+    {
+      "path": "docs/assets/03_数据统计.png",
+      "bytes": 162525,
+      "sha256": "8b76fbec7060ec9ad1b271e57c8e9c48edf8c76a7ae4dc7349960dcf07d77cc5"
+    },
+    {
+      "path": "docs/assets/04_预处理.png",
+      "bytes": 120465,
+      "sha256": "619a46d5a2a7b6ec59a7063d35c3562ca9d79a64c75ac514d90eddd0b91897ed"
+    },
+    {
+      "path": "docs/assets/05_固定退化面板.png",
+      "bytes": 128323,
+      "sha256": "757d722c2fb9dac20e461f9cb9e106c8bb097a48b9ece8bea74445ac221d1cb2"
+    },
+    {
+      "path": "docs/assets/06_保留压力面板.png",
+      "bytes": 61754,
+      "sha256": "fbf58f1a83b8c5bb4df85df0b5daee6aad4ff21877946e00e6f29bdb3cc0e8f2"
+    },
+    {
+      "path": "docs/assets/07_训练验证配对曲线.png",
+      "bytes": 442291,
+      "sha256": "e132271ec7a47e589a3292f04d1020e1a2e9202c10311f5fa66d78987bfbf48a"
+    },
+    {
+      "path": "docs/assets/08_独立阈值搜索.png",
+      "bytes": 207399,
+      "sha256": "4c043dc47481a16183f765aea475b32db2c36b013ac4de98adba436abb91e987"
+    },
+    {
+      "path": "docs/assets/09_训练数据频谱描述.png",
+      "bytes": 109028,
+      "sha256": "2ea5173f4331cb7061a7a9698ad93fe61f6a0dd93bfb7b296c778116e19849fd"
+    },
+    {
+      "path": "docs/assets/10_S01折外混淆矩阵.png",
+      "bytes": 39678,
+      "sha256": "ceb73ee05527ae958af06712e199e58f0a3e6ae0b9ab1b5776d6ad6f218d1cda"
+    },
+    {
+      "path": "docs/assets/11_S01正确分类示例.png",
+      "bytes": 122808,
+      "sha256": "c2fcf6507bf1891be97a5a0ed13f584c2ab1c93fc17d5bfceccdbe669de5a40d"
+    },
+    {
+      "path": "docs/assets/12_S01全部原图错误.png",
+      "bytes": 155729,
+      "sha256": "3550ee46d6fe7642f68a2afcd46defebc149fcf5487816e1337fe25ae3c98285"
+    },
+    {
+      "path": "docs/assets/13_S01逐视图鲁棒性.png",
+      "bytes": 234916,
+      "sha256": "5a72a0b6b9eb20d52ab4f3807af7cc4c33a5ae59c2ce45da9765c78911c55122"
+    },
+    {
+      "path": "docs/assets/14_S01模糊强度响应.png",
+      "bytes": 78366,
+      "sha256": "2dae76c2e9ea17f8b8d0fdd0cc2a5be1af4a9108a3c76e235a28ca4b5f314599"
+    },
+    {
+      "path": "docs/assets/15_S01模块消融与条件区间.png",
+      "bytes": 145161,
+      "sha256": "dff535e50e18eb99f0addbb4d5733b3b7198e8f4134e2a89ec21856215684548"
+    },
+    {
+      "path": "docs/assets/16_S01退化成功与漏检.png",
+      "bytes": 142074,
+      "sha256": "7a60075521175343571c5f6225f021f60b5cac03aff7b04f388dd23056660a6d"
+    },
+    {
+      "path": "docs/assets/17_S01条件执行路径.png",
+      "bytes": 67554,
+      "sha256": "c5d47eff50a789c7a4ec00f1772a79e87e94803fdf39f8eaf281a96a0c723eb7"
+    },
+    {
+      "path": "docs/assets/architecture.png",
+      "bytes": 159536,
+      "sha256": "2ac071122866b78c1113451a727ef4db560e6d422cb2529f7e2d4eeec2a8af2f"
+    },
+    {
+      "path": "docs/assets/conditional_flow.png",
+      "bytes": 80132,
+      "sha256": "0af414063e44d4735c42fe88862234282f80a5de4404ea30d97abecac8891f76"
+    },
+    {
+      "path": "docs/full_report.md",
+      "bytes": 73268,
+      "sha256": "00a01a066ec8966ddaa7594e2c1daf66af7361e6baf1be4aa8022327093d2b9a"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "bytes": 1801,
+      "sha256": "f1e17792d80d574a79880c7855e7d6a940cdb76b3162c813fb2bb00359d0d773"
+    },
+    {
+      "path": "docs/threshold_search.md",
+      "bytes": 1331,
+      "sha256": "58fa4a4a8ba7f2f726cf425132be94b5cba5565fbfc6503d50502725bef81c22"
+    },
+    {
+      "path": "evidence/01_结构图字体核验.json",
+      "bytes": 11467,
+      "sha256": "388672884743b7e62baf8672a55ba3c592e3549af9141baca8c4352d219a049e"
+    },
+    {
+      "path": "evidence/28网络部署权重与轮次.json",
+      "bytes": 18438,
+      "sha256": "9129472351ef68349e79e75acbbb4045a7e9cea0592fc2fb38e8d1d725d99cc5"
+    },
+    {
+      "path": "evidence/S01内部评价指标.json",
+      "bytes": 339,
+      "sha256": "a83786cd596750f70e3472fb68122554e5f7e91d8306bf71a9d091ca1b8c00cf"
+    },
+    {
+      "path": "evidence/S01源图折外决策.npz",
+      "bytes": 4643,
+      "sha256": "2ec0231baf5995ba0a5a6a1fb1ae32a32f1a30b5beb2bde8a9636f30e96b27ed"
+    },
+    {
+      "path": "evidence/S01绝对指标条件区间.json",
+      "bytes": 556,
+      "sha256": "5471008587c5dd936ca5cbb9f984b570f08c6d8bf8276070b5cd8526c6f4826f"
+    },
+    {
+      "path": "evidence/S01训练原图折外决策.csv",
+      "bytes": 15539,
+      "sha256": "3e7031448c4cf4a659f495e451d1d49c61d32569ce8fb49bb1cad8771eaf6721"
+    },
+    {
+      "path": "evidence/S01逐退化视图指标.csv",
+      "bytes": 921,
+      "sha256": "aa89e8e478e5c449231cb2811ad11c0a65f0827905a253b6e349e9d7ce9320b3"
+    },
+    {
+      "path": "evidence/S01部署模型身份.json",
+      "bytes": 975,
+      "sha256": "17d511d9577e5714a8d9c0692d76b37dfcc7843a6d639cc4da57a46dd069809b"
+    },
+    {
+      "path": "evidence/historical_threshold/validation_scores.npz",
+      "bytes": 50444,
+      "sha256": "674b40e9928bc2f915d6ee2549db36788990bcd00309950962dab7e6fe934a07"
+    },
+    {
+      "path": "evidence/package_provenance.json",
+      "bytes": 10950,
+      "sha256": "a983f5f49d356ce6d9a80593f6cc4a9228bcd0a1e4ce95847f185dfa30792fe8"
+    },
+    {
+      "path": "evidence/pdf_math_revision.json",
+      "bytes": 1195,
+      "sha256": "0e9e7b63e13e8eb5fe7e34d60b8203d3fe4b529a88f118a11da93cb7af33b105"
+    },
+    {
+      "path": "evidence/release_validation.json",
+      "bytes": 5996,
+      "sha256": "81c7fe76cff4928d4af0fea4db21b909e5a0cd98b66c905a160073cbe6087225"
+    },
+    {
+      "path": "evidence/s01_final_report_audit.md",
+      "bytes": 15636,
+      "sha256": "1a338b540f404e80487de36ea3cf9c8f5bee7c39d760470d188dd92c4798e97e"
+    },
+    {
+      "path": "evidence/s01_model_audit.md",
+      "bytes": 12775,
+      "sha256": "547070d25ead874d20859ed110698a4497337c9244d1453f441dde8e95584074"
+    },
+    {
+      "path": "evidence/三组部署校准器.json",
+      "bytes": 22310,
+      "sha256": "d5fda86c7ee86a9d84a1bccd40aa7d1834ef05230243a2f999c7802c69b55787"
+    },
+    {
+      "path": "evidence/三组阈值搜索复算.csv",
+      "bytes": 664,
+      "sha256": "82157f3ca29b3f649a7aa6dd636766bff6c71e2785264b32a7ac4bd9d4c386fb"
+    },
+    {
+      "path": "evidence/原图划分人数.csv",
+      "bytes": 422,
+      "sha256": "d60bcb1ff8f2665e7d8ad2539544a1b84e1d743ebf425cb70795c31dd28cac22"
+    },
+    {
+      "path": "evidence/原图划分完整记录.json",
+      "bytes": 157710,
+      "sha256": "3a93cfd037839148c8296403f3f08baccfc9445077f7803509c0fd36bdb86f50"
+    },
+    {
+      "path": "evidence/图表数值核验.json",
+      "bytes": 364,
+      "sha256": "7dbfa831855a352c27a92806c93f27b4ea20cdb9fee18f88f40c47a0c0830f53"
+    },
+    {
+      "path": "evidence/图表视觉核验缩略图.jpg",
+      "bytes": 213400,
+      "sha256": "8783001ae3bcf2b3d5434faa6e6b4a9068721af3319cddaa4012fc55db818223"
+    },
+    {
+      "path": "evidence/成对差值与条件bootstrap区间.csv",
+      "bytes": 4650,
+      "sha256": "64421690f78541a8554293624b8038cde167351b16b0ea89d5a3c5391c6cd2d9"
+    },
+    {
+      "path": "evidence/报告图像字体核验.json",
+      "bytes": 4740,
+      "sha256": "cc24a0516ed238c99e47b5b3f6f75eea6ffa00e9dca60c2c85dd6ca45fd1ee9d"
+    },
+    {
+      "path": "evidence/报告文件清单.json",
+      "bytes": 9138,
+      "sha256": "dd6088ffd16675fb4448449b74204ad9e2c78c3c5755ba269c10051803ce2f4b"
+    },
+    {
+      "path": "evidence/最终报告核验.json",
+      "bytes": 555,
+      "sha256": "ebe73bc472ffe8b59e06f11c38593031329f1e4058fce8c6616037e5c76d193d"
+    },
+    {
+      "path": "evidence/条件区间方法.json",
+      "bytes": 539,
+      "sha256": "80778764a1573b5237dac07ec9670e07be8697e7522214ccd6f77a3276e59c4e"
+    },
+    {
+      "path": "evidence/条件执行源图逻辑统计.json",
+      "bytes": 328,
+      "sha256": "1783df0f596e0c2a560543762a010906c5643384078eacc75f8cb145deec34c3"
+    },
+    {
+      "path": "evidence/来源摘录说明.json",
+      "bytes": 891,
+      "sha256": "50f183b706f673b97e879449935ae4e48fa9508f3e04b4104e62de9556129187"
+    },
+    {
+      "path": "evidence/源图全部指标.json",
+      "bytes": 55251,
+      "sha256": "5f1907a71b7047ef1567112775101370ce873b36b123e5636dd10435b48b6a6d"
+    },
+    {
+      "path": "evidence/源图全部消融结果.csv",
+      "bytes": 5721,
+      "sha256": "f0240797fa30c82e281bcfc16e4c32e7ef64bb42c732233512bd5fc6686787a3"
+    },
+    {
+      "path": "evidence/训练图像描述统计.csv",
+      "bytes": 53588,
+      "sha256": "19aa13c514b2640aa882d7d3fd32c22dc9f8e38dae922f6dfdafadd9dd14efca"
+    },
+    {
+      "path": "evidence/训练数据核验.json",
+      "bytes": 421,
+      "sha256": "cc99ae10a9860fe08016708fc24a004543cccb68c3bcaf5a1f54f29e13508468"
+    },
+    {
+      "path": "evidence/超参数完整账本.md",
+      "bytes": 23550,
+      "sha256": "874234b81290563be627e8388674417d9444fce6725ac1287b7a693508c95fb0"
+    },
+    {
+      "path": "evidence/运行库版本.json",
+      "bytes": 166,
+      "sha256": "6212ca47f3fd31ab6ead94f66b6207e848ff4dd05dc8b503ca33041090e7ca32"
+    },
+    {
+      "path": "evidence/退化展示索引.csv",
+      "bytes": 382,
+      "sha256": "fa52eb57a386389cc5b1331093bfefd6ddce0b8ae41f8220d407d4bed84490e7"
+    },
+    {
+      "path": "evidence/配对曲线真实记录.csv",
+      "bytes": 46504,
+      "sha256": "43198a0e2131e8692e360b27a8d08a7c741142ea9353753537d48feafd1ced64"
+    },
+    {
+      "path": "evidence/非负约束触边核验.json",
+      "bytes": 5138,
+      "sha256": "7dd615a888ed9f389d2fc76a85bf399309bbbaa4ad3e613fbb95cd31ffa66a7d"
+    },
+    {
+      "path": "evidence/频谱描述统计.csv",
+      "bytes": 21135,
+      "sha256": "b2c504a2c385bcf68b7a5f17bb6f390cc733c817501eddd0ede3503100e25d09"
+    },
+    {
+      "path": "models/s01/compact_model.pt",
+      "bytes": 62483978,
+      "sha256": "56c3fa2a06d26548c5b2959bb0f8879284ad417ad283eb52066ae707f9f0b5c2"
+    },
+    {
+      "path": "models/s01/metadata.json",
+      "bytes": 39280,
+      "sha256": "e941b0b1cd4e1e6a648f92b6b9714ea4e2759648326ee0c804668c4548fe2a1f"
+    },
+    {
+      "path": "models/s01/networks.py",
+      "bytes": 2921,
+      "sha256": "f801511c8cecca71b7bc4b165cb63c4fbd7d3f68ed6db934f6868286c32b7859"
+    },
+    {
+      "path": "report_summary.json",
+      "bytes": 5184,
+      "sha256": "ca63c3cf245200a140429ac7a2e136f097186a093ecebd03d5f4fcbacc7f1dfc"
+    },
+    {
+      "path": "requirements-report.txt",
+      "bytes": 57,
+      "sha256": "27851078abfacca0f6f34f0356f5b6d30bd148b8a24ba87bb4e28ccac82551dc"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 61,
+      "sha256": "3953db27e77d1fb3eb13cbb6d00be6f278c3ca06525c43513fca72c23c47ebf4"
+    },
+    {
+      "path": "results/platform_result.json",
+      "bytes": 492,
+      "sha256": "39b195c3141fb4fc30a6696186b511aff7aecd7763525507b493f1aa76be4347"
+    },
+    {
+      "path": "results/test_predictions.txt",
+      "bytes": 2721,
+      "sha256": "344a60e51caf2a9aca157bbf3adf436b13184a0bc4883c42675144d51ad1bcc8"
+    },
+    {
+      "path": "scripts/build_brief_pdf.py",
+      "bytes": 20128,
+      "sha256": "8cc84c221cc5d314f1a27b62c578e0a26417d7f4a2509667b99c527b182141a1"
+    },
+    {
+      "path": "scripts/predict.py",
+      "bytes": 1232,
+      "sha256": "a838272b962bf5651532a4bef7a5b77e30c88221f352a8d4121da32d70fd4a1e"
+    },
+    {
+      "path": "scripts/recompute_metrics.py",
+      "bytes": 952,
+      "sha256": "ad0ea9111599db8f6ead7914c8ba33ece7735f1034ac007591b9586da7b0f046"
+    },
+    {
+      "path": "scripts/replay_threshold.py",
+      "bytes": 750,
+      "sha256": "e1452c5770971aefe571789cdece61185db9e00105e36b1bed7c8cb534512098"
+    },
+    {
+      "path": "scripts/report_graphics.py",
+      "bytes": 7558,
+      "sha256": "40350b2a0cabfe9d20001a764d134f63271b1c9fa10b33e0e011fb329be18255"
+    },
+    {
+      "path": "scripts/verify_prediction.py",
+      "bytes": 707,
+      "sha256": "c66ae3442a35aa91bcb098462db606ea74fb39eae47fa989fa9ba8bb43178d7c"
+    },
+    {
+      "path": "src/scre_face/__init__.py",
+      "bytes": 35,
+      "sha256": "b6cc38f9050bf6c424897eb06ebf545c7322a4612b96aef3b4b49ee917511c0c"
+    },
+    {
+      "path": "src/scre_face/runtime.py",
+      "bytes": 10989,
+      "sha256": "4d965e7f6fad2c0ded8b9ebd8ff29dce707bd372c34cb3655d7e98d507f9253f"
+    }
+  ]
+}

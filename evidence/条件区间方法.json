@@ -1,0 +1,14 @@
+{
+  "bootstrap_replicates": 5000,
+  "seed": 20261116,
+  "unit": "original source image, all views resampled together",
+  "strata": "outer-fold x original class; each stratum size held fixed",
+  "interval": "percentile 95% conditional on already-trained models, thresholds and explored recipes",
+  "does_not_cover": [
+    "retraining variability",
+    "hyperparameter/model selection variability",
+    "dataset shift",
+    "multiple-comparison correction"
+  ],
+  "use": "exploratory descriptive uncertainty, not proof of module necessity"
+}

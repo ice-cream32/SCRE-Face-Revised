@@ -1,0 +1,41 @@
+{
+  "name": "S01",
+  "parameters": 15294620,
+  "logical_members": 28,
+  "small_members": 24,
+  "dense_tails": 4,
+  "shared_prefix_output": [
+    512,
+    4,
+    4
+  ],
+  "weights_file": "${ORIGINAL_WORKSPACE}/outputs/C1_SCORE消融与简化/compact/compact_model.pt",
+  "weights_sha256": "56c3fa2a06d26548c5b2959bb0f8879284ad417ad283eb52066ae707f9f0b5c2",
+  "runtime_sha256": "e81363661b474f21bdf725cc02ab71d02e85464e99c1dd258fc31aeeabdcf153",
+  "compiled_gates": [
+    {
+      "weights": [
+        0.2169952175301409,
+        0.1934628325443443,
+        0.15199294416433157
+      ],
+      "decision_bias": -0.2605568286656667
+    },
+    {
+      "weights": [
+        0.20682459647388388,
+        0.17861054313568142,
+        0.1794684970186134
+      ],
+      "decision_bias": 0.07361567658723578
+    },
+    {
+      "weights": [
+        0.21916446647777843,
+        0.18480143033158292,
+        0.1678697396334812
+      ],
+      "decision_bias": 0.5501657208208823
+    }
+  ]
+}

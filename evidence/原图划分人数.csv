@@ -1,0 +1,13 @@
+type,tag,fit,es,meta,selection,outer
+nested,o1p1,284,71,118,60,267
+nested,o1p2,284,71,118,60,267
+nested,o1p3,284,72,118,59,267
+nested,o2p1,284,71,118,60,267
+nested,o2p2,284,71,118,60,267
+nested,o2p3,284,72,118,59,267
+nested,o3p1,284,72,118,60,266
+nested,o3p2,284,72,118,60,266
+nested,o3p3,284,72,118,60,266
+deployed,deploy1,426,107,178,89,0
+deployed,deploy2,426,107,178,89,0
+deployed,deploy3,427,107,177,89,0

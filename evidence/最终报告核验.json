@@ -1,0 +1,17 @@
+{
+  "name": "S01 final-model report",
+  "figures": 17,
+  "code_files": 13,
+  "all_local_markdown_links_resolve": true,
+  "link_checks": 68,
+  "GFM_table_columns_valid": true,
+  "math_and_code_delimiters_paired": true,
+  "source_only_analysis": true,
+  "no_predecessor_model_comparison": true,
+  "all16000_source_decisions_rebuilt": true,
+  "source_metrics_recomputed": true,
+  "model_parameters": 15294620,
+  "deployed_weight_identity_verified": true,
+  "Chinese_figure_font": "Microsoft YaHei",
+  "neural_training_or_parameter_selection_changed": false
+}

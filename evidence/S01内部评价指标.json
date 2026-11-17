@@ -1,0 +1,14 @@
+{
+  "clean_accuracy": 0.9875,
+  "weighted_accuracy": 0.9808333333333334,
+  "weighted_recall": 0.9926666666666667,
+  "weighted_specificity": 0.9690000000000001,
+  "worst_standard_accuracy": 0.945,
+  "held_accuracy": 0.9768749999999999,
+  "held_recall": 0.975,
+  "held_specificity": 0.97875,
+  "TP": 400,
+  "TN": 390,
+  "FN": 0,
+  "FP": 10
+}

@@ -1,0 +1,253 @@
+{
+  "release_date": "2026-11-17",
+  "input_archives": {
+    "train.zip": {
+      "sha256": "e0e32b169051ceedd6a286694641518eb5c9985ae8d66e1b393406f889df8d66",
+      "matches_provided_archive": true
+    },
+    "test.zip": {
+      "sha256": "05393262c6bcbf7365f740981f0747cac09f06d0ccdb465221a4c01cfe624c31",
+      "matches_provided_archive": true
+    }
+  },
+  "data": {
+    "training_originals": 800,
+    "training_class_counts": {
+      "face": 400,
+      "nonface": 400
+    },
+    "test_originals": 420,
+    "test_has_labels": false
+  },
+  "fresh_cpu_inference": {
+    "format": "c1-shared-runtime-v1",
+    "device": "cpu",
+    "images": 420,
+    "batch_size": 64,
+    "parameter_count": 15294620,
+    "prefix_images": 420,
+    "branch_images": {
+      "c0": 420,
+      "pair1": 313,
+      "pair2": 313,
+      "pair3": 2
+    },
+    "small_calls": [
+      {
+        "branch": "c0",
+        "kind": "resnet8",
+        "seed": 42,
+        "images": 420
+      },
+      {
+        "branch": "c0",
+        "kind": "resnet8",
+        "seed": 7,
+        "images": 420
+      },
+      {
+        "branch": "c0",
+        "kind": "resnet8",
+        "seed": 2026,
+        "images": 420
+      },
+      {
+        "branch": "c0",
+        "kind": "hires19",
+        "seed": 42,
+        "images": 420
+      },
+      {
+        "branch": "c0",
+        "kind": "hires19",
+        "seed": 7,
+        "images": 420
+      },
+      {
+        "branch": "c0",
+        "kind": "hires19",
+        "seed": 2026,
+        "images": 420
+      },
+      {
+        "branch": "pair1",
+        "kind": "resnet8",
+        "seed": 42,
+        "images": 313
+      },
+      {
+        "branch": "pair1",
+        "kind": "resnet8",
+        "seed": 7,
+        "images": 313
+      },
+      {
+        "branch": "pair1",
+        "kind": "resnet8",
+        "seed": 2026,
+        "images": 313
+      },
+      {
+        "branch": "pair1",
+        "kind": "hires19",
+        "seed": 42,
+        "images": 313
+      },
+      {
+        "branch": "pair1",
+        "kind": "hires19",
+        "seed": 7,
+        "images": 313
+      },
+      {
+        "branch": "pair1",
+        "kind": "hires19",
+        "seed": 2026,
+        "images": 313
+      },
+      {
+        "branch": "pair2",
+        "kind": "resnet8",
+        "seed": 42,
+        "images": 313
+      },
+      {
+        "branch": "pair2",
+        "kind": "resnet8",
+        "seed": 7,
+        "images": 313
+      },
+      {
+        "branch": "pair2",
+        "kind": "resnet8",
+        "seed": 2026,
+        "images": 313
+      },
+      {
+        "branch": "pair2",
+        "kind": "hires19",
+        "seed": 42,
+        "images": 313
+      },
+      {
+        "branch": "pair2",
+        "kind": "hires19",
+        "seed": 7,
+        "images": 313
+      },
+      {
+        "branch": "pair2",
+        "kind": "hires19",
+        "seed": 2026,
+        "images": 313
+      },
+      {
+        "branch": "pair3",
+        "kind": "resnet8",
+        "seed": 42,
+        "images": 2
+      },
+      {
+        "branch": "pair3",
+        "kind": "resnet8",
+        "seed": 7,
+        "images": 2
+      },
+      {
+        "branch": "pair3",
+        "kind": "resnet8",
+        "seed": 2026,
+        "images": 2
+      },
+      {
+        "branch": "pair3",
+        "kind": "hires19",
+        "seed": 42,
+        "images": 2
+      },
+      {
+        "branch": "pair3",
+        "kind": "hires19",
+        "seed": 7,
+        "images": 2
+      },
+      {
+        "branch": "pair3",
+        "kind": "hires19",
+        "seed": 2026,
+        "images": 2
+      }
+    ],
+    "small_network_image_evaluations": 6288,
+    "dense_tail_image_evaluations": 1048,
+    "critical_original_gate_fallbacks": {
+      "pair1": 0,
+      "pair2": 0,
+      "pair3": 0
+    },
+    "minimum_absolute_compiled_margin": {
+      "pair1": 0.2530674714912636,
+      "pair2": 0.006835030269187525,
+      "pair3": 0.053923738286832945
+    },
+    "reference_positive_shortcuts": 107,
+    "two_vote_shortcuts": 311,
+    "manual_overrides": false,
+    "prefix_encoded_bytes": 13762560,
+    "seconds": 11.052807540865615,
+    "labels_face": 111,
+    "labels_nonface": 309,
+    "dense_prefix_reuse_saved_image_evaluations": 628
+  },
+  "prediction_comparison": {
+    "rows": 420,
+    "different_ids": [],
+    "identical": true
+  },
+  "prediction_sha256": "344a60e51caf2a9aca157bbf3adf436b13184a0bc4883c42675144d51ad1bcc8",
+  "weights_sha256": "56c3fa2a06d26548c5b2959bb0f8879284ad417ad283eb52066ae707f9f0b5c2",
+  "replayed_internal_metrics": {
+    "clean_accuracy": 0.9875,
+    "weighted_accuracy": 0.9808333333333334,
+    "weighted_recall": 0.9926666666666667,
+    "weighted_specificity": 0.9690000000000001,
+    "held_accuracy": 0.9768749999999999,
+    "TP": 400,
+    "TN": 390,
+    "FN": 0,
+    "FP": 10
+  },
+  "replayed_historical_threshold": {
+    "threshold": 0.37,
+    "weighted_validation_accuracy": 0.9973214285714285,
+    "grid_size": 99,
+    "independent_originals": 160,
+    "note": "Historical development score; current S01 inherits .37."
+  },
+  "syntax_checked_runnable_python_files": 9,
+  "pdf": {
+    "total_pages": 17,
+    "body_pages": 12,
+    "appendix_pages": 5,
+    "all_pages_rendered_and_visually_reviewed": true,
+    "review": "No clipped text, overlaps, missing Chinese glyphs, or unrendered math observed."
+  },
+  "platform_accuracy": {
+    "value": 0.964,
+    "source": "user_report",
+    "independently_recomputed": false
+  },
+  "scope": {
+    "model_retrained_for_packaging": false,
+    "test_labels_used_by_predict_entry": false,
+    "manual_prediction_edits": false,
+    "standalone_full_retraining_supported": false,
+    "historical_training_snapshots_require_upstream_dependencies": true
+  },
+  "limitations": [
+    "Platform and difficult-case feedback informed the longer project history.",
+    "Stored outer-fold metrics are replayed from saved decisions, not newly re-inferred.",
+    "Historical threshold 0.37 is inherited; not a new joint optimum of this cascade."
+  ],
+  "relative_markdown_links_checked": 45
+}

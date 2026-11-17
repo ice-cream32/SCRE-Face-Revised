@@ -1,0 +1,292 @@
+{
+  "figure": "${ORIGINAL_WORKSPACE}/outputs/S01最终模型完整报告/assets/01_S01整体结构.png",
+  "font_family": "Microsoft YaHei",
+  "font_regular": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+  "font_bold": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+  "font_regular_sha256": "3084f1f88369af6bf9989c909024164d953d1e38d08734f05f28ef24b2f9d577",
+  "font_bold_sha256": "519309b7ab0479c4dc3ace5e291de5a8702175be5586e165bc810267bd4619a5",
+  "text_objects": [
+    {
+      "text": "A  模型组成与分支评分",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 21.0
+    },
+    {
+      "text": "输入图像 x\n1 × 19 × 19 灰度，[0,1]",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 17.0
+    },
+    {
+      "text": "小网络输入 A_S(x)\n逐图标准化与裁剪",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 16.0
+    },
+    {
+      "text": "Dense 输入 A_D(x)\n128×128、三通道、ImageNet 归一化",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.5
+    },
+    {
+      "text": "共享冻结前缀 E\nz = E(A_D(x))：512 × 4 × 4",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 16.0
+    },
+    {
+      "text": "N5：共享 norm5 参数\n四条分支各自计算激活",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.5
+    },
+    {
+      "text": "每图只计算一次 E，按图像 ID 复用 z",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 16.0
+    },
+    {
+      "text": "所有 R/H 成员接收 A_S(x)；每条 Dense 尾接收同一 z。",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "共享特征 z",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "保护分支 B · 7 成员",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 18.0
+    },
+    {
+      "text": "ResNet8 × 3（42 / 7 / 2026）\n成员 σ 后概率平均 → p_BR",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.1
+    },
+    {
+      "text": "HiRes19 × 3（42 / 7 / 2026）\n成员 σ 后概率平均 → p_BH",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.1
+    },
+    {
+      "text": "Dense 尾：block4_B → N5 → ReLU\n→ GAP → head_B → σ → p_BD",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 13.7
+    },
+    {
+      "text": "三家族等权概率均值\np_B = (p_BR + p_BH + p_BD) / 3\nv_B = 1[p_B ≥ 0.37]",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.7
+    },
+    {
+      "text": "三个家族先各自产生一个分数",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 13.5
+    },
+    {
+      "text": "救援分支 1 · 7 成员",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 18.0
+    },
+    {
+      "text": "ResNet8 × 3（42 / 7 / 2026）\n成员 σ 后概率平均 → p_1R",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.1
+    },
+    {
+      "text": "HiRes19 × 3（42 / 7 / 2026）\n成员 σ 后概率平均 → p_1H",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.1
+    },
+    {
+      "text": "Dense 尾：block4_1 → N5 → ReLU\n→ GAP → head_1 → σ → p_1D",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 13.7
+    },
+    {
+      "text": "家族分数 → 受限 logit L_1\nh_1 = w_1 · L_1 + γ_1\nv_1 = 1[h_1 ≥ 0]",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.7
+    },
+    {
+      "text": "三个家族先各自产生一个分数",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 13.5
+    },
+    {
+      "text": "救援分支 2 · 7 成员",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 18.0
+    },
+    {
+      "text": "ResNet8 × 3（42 / 7 / 2026）\n成员 σ 后概率平均 → p_2R",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.1
+    },
+    {
+      "text": "HiRes19 × 3（42 / 7 / 2026）\n成员 σ 后概率平均 → p_2H",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.1
+    },
+    {
+      "text": "Dense 尾：block4_2 → N5 → ReLU\n→ GAP → head_2 → σ → p_2D",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 13.7
+    },
+    {
+      "text": "家族分数 → 受限 logit L_2\nh_2 = w_2 · L_2 + γ_2\nv_2 = 1[h_2 ≥ 0]",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.7
+    },
+    {
+      "text": "三个家族先各自产生一个分数",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 13.5
+    },
+    {
+      "text": "救援分支 3 · 7 成员",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 18.0
+    },
+    {
+      "text": "ResNet8 × 3（42 / 7 / 2026）\n成员 σ 后概率平均 → p_3R",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.1
+    },
+    {
+      "text": "HiRes19 × 3（42 / 7 / 2026）\n成员 σ 后概率平均 → p_3H",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.1
+    },
+    {
+      "text": "Dense 尾：block4_3 → N5 → ReLU\n→ GAP → head_3 → σ → p_3D",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 13.7
+    },
+    {
+      "text": "家族分数 → 受限 logit L_3\nh_3 = w_3 · L_3 + γ_3\nv_3 = 1[h_3 ≥ 0]",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 14.7
+    },
+    {
+      "text": "三个家族先各自产生一个分数",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 13.5
+    },
+    {
+      "text": "四个 block4 / head 分别训练；N5 参数共享不等于分支激活共享。救援 w 与 γ 为部署固定参数。",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "B  逐图条件执行：只计算影响当前决策的分支",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 21.0
+    },
+    {
+      "text": "执行保护分支\n计算并缓存 z，得到 p_B",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.5
+    },
+    {
+      "text": "p_B ≥ 0.37？",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 16.0
+    },
+    {
+      "text": "返回：人脸（+1）",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.5
+    },
+    {
+      "text": "是",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "只对保护分支负例\n计算救援投票 v_1、v_2",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.5
+    },
+    {
+      "text": "否",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "v_1 = v_2？",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 16.0
+    },
+    {
+      "text": "返回两者共同的投票",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.5
+    },
+    {
+      "text": "是",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "两票分歧：计算 v_3\n复用 z，只执行第 3 救援分支",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "否",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "返回 v_3 对应类别\n等价于三组投票至少 2 票为正",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "最终规则：",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 17.0
+    },
+    {
+      "text": "v_B = 1 或 v_1 + v_2 + v_3 ≥ 2 → 人脸",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 17.0
+    },
+    {
+      "text": "其他情况 → 非人脸",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 17.0
+    },
+    {
+      "text": "投票 1 对应人脸（+1）；投票 0 对应非人脸（−1）。σ 仅用于成员概率，救援融合直接比较线性边际。",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 15.0
+    },
+    {
+      "text": "S01 最终模型：共享特征、四路判别与条件执行",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei-Bold.ttc",
+      "point_size": 27.0
+    },
+    {
+      "text": "28 个分类成员 ＝ 24 个小网络 ＋ 4 个 Dense 分类成员；神经参数 15,294,620",
+      "font_file": "${ORIGINAL_HOME}/Library/Fonts/MedicalMVP-MicrosoftYaHei.ttc",
+      "point_size": 17.0
+    }
+  ],
+  "minimum_point_size": 13.5,
+  "all_text_objects_use_Microsoft_YaHei": true,
+  "code_sha256": "267f1eaa2f50906f683c11968234aa61ef17896e992843f5f1f22a098db62d4e",
+  "image_sha256": "29af8d4fecb216d7c0989e3f750bc465d19d2629d928e1a70d18e790d7da8a19",
+  "data_or_prediction_files_read": false,
+  "missing_glyphs": [],
+  "architecture": "one shared Dense prefix/norm5;4 independent Dense tails;24 small networks;4 seven-member branches",
+  "visual_qa": {
+    "status": "passed",
+    "method": "Direct inspection of the final PNG after notation alignment",
+    "checks": [
+      "Family probabilities use branch-first notation p_BR/p_BH/p_BD and p_1R/p_1H/p_1D",
+      "Rescue h_j uses weight vector w_j and intercept gamma_j",
+      "No missing glyphs, box overflows, or crossing arrows",
+      "Conditional execution unchanged"
+    ]
+  }
+}

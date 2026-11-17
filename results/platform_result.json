@@ -1,0 +1,9 @@
+{
+  "reported_test_accuracy": 0.964,
+  "source": "user-reported platform result in conversation",
+  "test_images": 420,
+  "test_labels_available": false,
+  "prediction_sha256": "344a60e51caf2a9aca157bbf3adf436b13184a0bc4883c42675144d51ad1bcc8",
+  "independent_local_test_accuracy_recomputed": false,
+  "note": "The exact unrounded correct count cannot be inferred from rounded accuracy. Project included repeated platform/difficult-case feedback; not a one-shot untouched blind evaluation."
+}

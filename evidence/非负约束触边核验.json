@@ -1,0 +1,194 @@
+[
+  {
+    "pair": "o1p1",
+    "case": "S01",
+    "minimum_coefficient": 1.114683674228441,
+    "maximum_coefficient": 1.5139474560188464,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o1p1",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.114683674228441,
+    "maximum_coefficient": 1.5139474560188464,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o1p2",
+    "case": "S01",
+    "minimum_coefficient": 1.0984347822223526,
+    "maximum_coefficient": 1.4472306308257656,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o1p2",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.0984347822223526,
+    "maximum_coefficient": 1.4472306308257656,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o1p3",
+    "case": "S01",
+    "minimum_coefficient": 1.0387384678009233,
+    "maximum_coefficient": 1.5586619161116941,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o1p3",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.0387384678009233,
+    "maximum_coefficient": 1.5586619161116941,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o2p1",
+    "case": "S01",
+    "minimum_coefficient": 1.0216418443668756,
+    "maximum_coefficient": 1.3922285527907645,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o2p1",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.0216418443668756,
+    "maximum_coefficient": 1.3922285527907645,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o2p2",
+    "case": "S01",
+    "minimum_coefficient": 1.0406281560785984,
+    "maximum_coefficient": 1.5077675453768125,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o2p2",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.0406281560785984,
+    "maximum_coefficient": 1.5077675453768125,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o2p3",
+    "case": "S01",
+    "minimum_coefficient": 1.0894655065085472,
+    "maximum_coefficient": 1.4636625059743127,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o2p3",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.0894655065085472,
+    "maximum_coefficient": 1.4636625059743127,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o3p1",
+    "case": "S01",
+    "minimum_coefficient": 1.0639270524787854,
+    "maximum_coefficient": 1.5083105251422575,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o3p1",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.0639270524787854,
+    "maximum_coefficient": 1.5083105251422575,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o3p2",
+    "case": "S01",
+    "minimum_coefficient": 1.0478849864880773,
+    "maximum_coefficient": 1.4901095759301917,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o3p2",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.0478849864880773,
+    "maximum_coefficient": 1.4901095759301917,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o3p3",
+    "case": "S01",
+    "minimum_coefficient": 1.100622400544933,
+    "maximum_coefficient": 1.3730537534660001,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "o3p3",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.100622400544933,
+    "maximum_coefficient": 1.3730537534660001,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "deploy1",
+    "case": "S01",
+    "minimum_coefficient": 1.0161273335718521,
+    "maximum_coefficient": 1.5104081499881419,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "deploy1",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.0161273335718521,
+    "maximum_coefficient": 1.5104081499881419,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "deploy2",
+    "case": "S01",
+    "minimum_coefficient": 1.1788687375010578,
+    "maximum_coefficient": 1.4369222762974434,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "deploy2",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.1788687375010578,
+    "maximum_coefficient": 1.4369222762974434,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "deploy3",
+    "case": "S01",
+    "minimum_coefficient": 1.099985050595767,
+    "maximum_coefficient": 1.5011727414970621,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  },
+  {
+    "pair": "deploy3",
+    "case": "R25_SIGNED",
+    "minimum_coefficient": 1.099985050595767,
+    "maximum_coefficient": 1.5011727414970621,
+    "positive_bound_active": false,
+    "upper_bound_active": false
+  }
+]
